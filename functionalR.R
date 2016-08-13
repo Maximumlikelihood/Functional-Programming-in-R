@@ -53,7 +53,7 @@ composite <- function(f, a, b, n = 10, rule) {
 }
 
 # --------------------------------------------------------------
-# Generate a sample datase (-99 represents missing values)
+# Generate a sample dataset (-99 represents missing values)
 set.seed(1014)
 df <- data.frame(replicate(6, sample(c(1:10, -99), 6, rep = TRUE)))
 names(df) <- letters[1:6]
