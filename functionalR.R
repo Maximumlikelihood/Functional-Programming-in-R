@@ -21,7 +21,7 @@ names(df) <- letters[1:6]
 # 6  6  2 1   3   8 5
 
 # Apply FP using lapply - Apply a Function over a List/Vector/Data Frame
-df[] <- lapply(df, fix_missing) # function comp
+df[] <- lapply(df, fix_missing) # function compositon: lapply + fix_missing
 # df (-99 replaced with NA)
 #    a  b c  d  e f
 # 1  1  6 1  5 NA 1
